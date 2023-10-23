@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+.upload__container {
+  border: 5px dashed #ddd;
+  min-height: 100px;
+  min-width: 300px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+}
+.upload__container.active {
+  background-color: #b8d4fe;
+  color: #000;
+  border: 2px dashed #618ac9;
+}
+
+.upload__container h2 {
+  font-size: 30px;
+  color: #000;
+  font-weight: 500px;
+}
+
+.upload__container span {
+  font-size: 25px;
+  color: #000;
+}
+.upload__container button {
+  padding: 10px 25px;
+  font-size: 14px;
+  border: 0;
+  outline: none;
+  background-color: #ec0000;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px;
+}

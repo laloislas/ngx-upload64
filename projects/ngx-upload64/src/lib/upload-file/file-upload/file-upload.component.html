@@ -1,0 +1,16 @@
+<div class="upload__container">
+  <!--<h2>Arrastra y suelta las imágenes</h2>
+  <span>O</span>-->
+  <button (click)="onUpload($event)">Buscar archivo</button>
+  <input
+    type="file"
+    name="file"
+    id="upload-file"
+    [accept]="typeAccept"
+    hidden
+    (change)="onChangeInputUpload($event)"
+    (dragleave)="onDragout($event)"
+    (dragover)="onDragover($event)"
+    (dragstart)="onDragover($event)"
+  />
+</div>
